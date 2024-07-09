@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="stylesheet"
+          href="./bootstrap-5.0.2-dist/css/bootstrap.min.css"
+        />
+        <script>
+            function validation(){
+                // Gate form field validation
+
+                var number = document.getElementById('number').value
+                if(number==1||3){
+                    document.getElementById('invalid value').textContent = 'invalid value.';
+                }else{
+                    document.getElementById('two image').style.display ="Block";
+                }
+                
+            }
+        </script>
+
+    <title>Form</title>
+    </head>
+
+   
+    <p>Form</p>
+    <h1>viewer</h1>
+    <form>
+        <label >Number of Image</label>
+        <input type="text" id="text" placeholder="4">
+        <button onclick="mytest()">display Image</button>
+
+        <h1>Image</h1>
+        <div id="" >
+        <table  border="1">
+            <tr>
+                <td> <img src="C:\Users\asma\Desktop\web\images.jpeg" alt="images.jpegg" class="float-right"></td>
+                <td> <img src="C:\Users\asma\Desktop\web\images.jpeg" alt="images.jpegg" class="float-right"></td>
+            </tr>
+            <tr>
+                <td> <img src="C:\Users\asma\Desktop\web\images.jpeg" alt="images.jpegg" class="float-right"></td>
+                <td> <img src="C:\Users\asma\Desktop\web\images.jpeg" alt="images.jpegg" class="float-right"></td>
+            </tr>
+        </table>
+    </div id="btn">
+    </form>
+    </body>
+            
+
+            
+</html>                 
